@@ -7,3 +7,7 @@
 - Check it first with `npm run feed:check -- path/to/feed.json` in the game repo.
 
 Phones pick up a change the next time the game opens (GitHub may serve the old copy for up to 5 minutes).
+
+## Website
+
+GitHub Pages serves this repo at https://alemanialloyd.github.io/public-heists/. The privacy policy linked from the store listings is `privacy/index.html` (https://alemanialloyd.github.io/public-heists/privacy/). `.nojekyll` makes Pages serve the files as they are, so `feed.json` is untouched.
