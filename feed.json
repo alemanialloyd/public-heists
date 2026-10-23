@@ -1,0 +1,1289 @@
+{
+ "format": 1,
+ "version": "2026-10-23-1",
+ "levels": [
+  {
+   "name": "The Front Door",
+   "three": 2,
+   "two": 3,
+   "hint": "<b>Stand on the green rune</b> to open the door, then press <b>New self</b>. Your ghost keeps standing on the rune while the new you walks through and grabs the gold.",
+   "decor": [
+    [
+     "bookshelf",
+     2,
+     0
+    ],
+    [
+     "portrait",
+     9,
+     0
+    ],
+    [
+     "portrait",
+     3,
+     6
+    ],
+    [
+     "bookshelf",
+     9,
+     6
+    ],
+    [
+     "cobwebR",
+     10,
+     1
+    ],
+    [
+     "cobweb",
+     7,
+     1
+    ]
+   ],
+   "map": [
+    "############",
+    "#S....#....#",
+    "#.....#..a.#",
+    "#.....#....#",
+    "#..........#",
+    "#k........c#",
+    "######A#####",
+    "#p........p#",
+    "#..........#",
+    "#....G.....#",
+    "#..........#",
+    "#..........#",
+    "#c........k#",
+    "############"
+   ]
+  },
+  {
+   "name": "Twin Locks",
+   "three": 3,
+   "two": 4,
+   "cat": {
+    "row": 11,
+    "x1": 1.6,
+    "x2": 10.4,
+    "period": 6
+   },
+   "hint": "<b>Two doors, two runes.</b> A rune only works while someone stands on it, so each ghost can hold one door open. Watch out for the guard cat: it spots you if you get close in front of it, but ghosts don't bother it.",
+   "decor": [
+    [
+     "portrait",
+     3,
+     0
+    ],
+    [
+     "bookshelf",
+     8,
+     0
+    ],
+    [
+     "bookshelf",
+     2,
+     5
+    ],
+    [
+     "portrait",
+     9,
+     8
+    ],
+    [
+     "cobwebR",
+     10,
+     6
+    ],
+    [
+     "cobweb",
+     1,
+     9
+    ]
+   ],
+   "map": [
+    "############",
+    "#S........b#",
+    "#..........#",
+    "#a........k#",
+    "#..........#",
+    "######A#####",
+    "#c........c#",
+    "#..........#",
+    "######B#####",
+    "#p........p#",
+    "#....G.....#",
+    "#..........#",
+    "#k........k#",
+    "############"
+   ]
+  },
+  {
+   "name": "The Watchman",
+   "three": 2,
+   "two": 3,
+   "hint": "<b>The watchman can't see ghosts, but he can see you.</b> A ghost on the lever puts his lantern out. Or time your run: the light sweeps the same way on every run.",
+   "decor": [
+    [
+     "bookshelf",
+     2,
+     0
+    ],
+    [
+     "portrait",
+     8,
+     0
+    ],
+    [
+     "portrait",
+     2,
+     6
+    ],
+    [
+     "bookshelf",
+     8,
+     6
+    ],
+    [
+     "cobwebR",
+     10,
+     7
+    ],
+    [
+     "cobweb",
+     5,
+     1
+    ]
+   ],
+   "map": [
+    "############",
+    "#S..#..s...#",
+    "#...#......#",
+    "#...#.....k#",
+    "#..........#",
+    "#a........c#",
+    "#####A######",
+    "#p.........#",
+    "#.........L#",
+    "#..........#",
+    "#.G........#",
+    "#..........#",
+    "#k.......c.#",
+    "############"
+   ]
+  },
+  {
+   "name": "Hold and Hurry",
+   "three": 2,
+   "two": 3,
+   "hint": "<b>One ghost can do two jobs.</b> Hold the green rune until you are through, then walk over to the purple rune.",
+   "decor": [
+    [
+     "portrait",
+     5,
+     0
+    ],
+    [
+     "bookshelf",
+     9,
+     0
+    ],
+    [
+     "portrait",
+     2,
+     5
+    ],
+    [
+     "bookshelf",
+     2,
+     9
+    ],
+    [
+     "portrait",
+     6,
+     9
+    ],
+    [
+     "cobwebR",
+     10,
+     1
+    ]
+   ],
+   "map": [
+    "############",
+    "#S.........#",
+    "#.a......b.#",
+    "#..........#",
+    "#k........k#",
+    "#####A######",
+    "#c........c#",
+    "#..........#",
+    "#..........#",
+    "########B###",
+    "#p........p#",
+    "#..........#",
+    "#....G.....#",
+    "############"
+   ]
+  },
+  {
+   "name": "Cellar Vault",
+   "boss": true,
+   "three": 3,
+   "two": 4,
+   "cats": [
+    {
+     "row": 6,
+     "x1": 1.6,
+     "x2": 10.4,
+     "period": 5
+    }
+   ],
+   "hint": "<b>Boss heist!</b> Two doors, a prowling cat and a watchman. Hold the doors, then time your dash past the lantern, or spend a self on the lever.",
+   "decor": [
+    [
+     "portrait",
+     5,
+     0
+    ],
+    [
+     "bookshelf",
+     9,
+     4
+    ],
+    [
+     "portrait",
+     5,
+     8
+    ],
+    [
+     "bookshelf",
+     9,
+     8
+    ],
+    [
+     "cobwebR",
+     10,
+     1
+    ],
+    [
+     "cobwebR",
+     10,
+     9
+    ]
+   ],
+   "map": [
+    "############",
+    "#S.......a.#",
+    "#..........#",
+    "#k........k#",
+    "####A#######",
+    "#c........c#",
+    "#..........#",
+    "#......bs..#",
+    "###B########",
+    "#p.........#",
+    "#.........L#",
+    "#..........#",
+    "#.G.......k#",
+    "############"
+   ]
+  },
+  {
+   "name": "Cat Nap",
+   "three": 2,
+   "two": 3,
+   "cats": [
+    {
+     "row": 6,
+     "x1": 1.6,
+     "x2": 10.4,
+     "period": 4
+    },
+    {
+     "row": 10,
+     "x1": 1.6,
+     "x2": 10.4,
+     "period": 5.5,
+     "phase": 2
+    }
+   ],
+   "hint": "<b>Two cats, one hallway.</b> Cats only see what is in front of them. Wait for them to turn their backs.",
+   "decor": [
+    [
+     "portrait",
+     5,
+     0
+    ],
+    [
+     "bookshelf",
+     9,
+     0
+    ],
+    [
+     "portrait",
+     1,
+     4
+    ],
+    [
+     "bookshelf",
+     9,
+     4
+    ],
+    [
+     "cobwebR",
+     10,
+     1
+    ],
+    [
+     "cobweb",
+     1,
+     5
+    ],
+    [
+     "cobwebR",
+     10,
+     5
+    ]
+   ],
+   "map": [
+    "############",
+    "#S.........#",
+    "#........a.#",
+    "#c........c#",
+    "#####A######",
+    "#..........#",
+    "#..........#",
+    "#..........#",
+    "#..........#",
+    "#..........#",
+    "#..........#",
+    "#..........#",
+    "#....G.....#",
+    "############"
+   ]
+  },
+  {
+   "name": "Three Locks",
+   "three": 3,
+   "two": 4,
+   "hint": "<b>Meet the orange rune.</b> Three doors stand between you and the gold. Can one ghost cover two of them?",
+   "decor": [
+    [
+     "portrait",
+     5,
+     0
+    ],
+    [
+     "bookshelf",
+     9,
+     0
+    ],
+    [
+     "portrait",
+     9,
+     4
+    ],
+    [
+     "bookshelf",
+     1,
+     8
+    ],
+    [
+     "portrait",
+     5,
+     8
+    ],
+    [
+     "bookshelf",
+     3,
+     10
+    ],
+    [
+     "cobwebR",
+     10,
+     1
+    ],
+    [
+     "cobweb",
+     1,
+     9
+    ],
+    [
+     "cobwebR",
+     10,
+     9
+    ]
+   ],
+   "map": [
+    "############",
+    "#S.........#",
+    "#.a......x.#",
+    "#k........k#",
+    "#####A######",
+    "#c........c#",
+    "#.b........#",
+    "#..........#",
+    "########B###",
+    "#..........#",
+    "######X#####",
+    "#p........p#",
+    "#....G.....#",
+    "############"
+   ]
+  },
+  {
+   "name": "Night Watch",
+   "three": 2,
+   "two": 3,
+   "watch": [
+    {
+     "face": "right"
+    },
+    {
+     "face": "left",
+     "phase": 2.1
+    }
+   ],
+   "hint": "<b>Two watchmen, one lever.</b> The lever puts out every lantern in the room.",
+   "decor": [
+    [
+     "portrait",
+     5,
+     0
+    ],
+    [
+     "bookshelf",
+     8,
+     3
+    ],
+    [
+     "cobwebR",
+     10,
+     1
+    ],
+    [
+     "cobweb",
+     1,
+     4
+    ],
+    [
+     "cobwebR",
+     10,
+     4
+    ]
+   ],
+   "map": [
+    "############",
+    "#S.......s.#",
+    "#..........#",
+    "#####..#####",
+    "#..........#",
+    "#L........L#",
+    "#..........#",
+    "#..........#",
+    "#..........#",
+    "#..........#",
+    "#p........p#",
+    "#..........#",
+    "#....G.....#",
+    "############"
+   ]
+  },
+  {
+   "name": "Shadow Steps",
+   "three": 1,
+   "two": 2,
+   "watch": [
+    {
+     "face": "left"
+    }
+   ],
+   "hint": "<b>No lever this time.</b> The walls block the light. Learn the sweep and dash between the shadows.",
+   "decor": [
+    [
+     "portrait",
+     5,
+     0
+    ],
+    [
+     "bookshelf",
+     9,
+     0
+    ],
+    [
+     "cobwebR",
+     10,
+     1
+    ]
+   ],
+   "map": [
+    "############",
+    "#S.........#",
+    "#..........#",
+    "#.##.##.##.#",
+    "#..........#",
+    "#..........#",
+    "#.##.##.##.#",
+    "#..........#",
+    "#.........L#",
+    "#..........#",
+    "#.##.##.##.#",
+    "#..........#",
+    "#G.........#",
+    "############"
+   ]
+  },
+  {
+   "name": "Kitchen Chaos",
+   "boss": true,
+   "three": 2,
+   "two": 3,
+   "watch": [
+    {
+     "face": "left"
+    }
+   ],
+   "cats": [
+    {
+     "col": 2,
+     "y1": 5.6,
+     "y2": 8.4,
+     "period": 3
+    }
+   ],
+   "hint": "<b>Boss heist!</b> A cat in the left wing, a watchman by the gold, and a lever in the right wing. Two selves are enough if you plan who goes where.",
+   "decor": [
+    [
+     "portrait",
+     5,
+     0
+    ],
+    [
+     "bookshelf",
+     9,
+     0
+    ],
+    [
+     "portrait",
+     2,
+     9
+    ],
+    [
+     "cobwebR",
+     10,
+     1
+    ],
+    [
+     "cobwebR",
+     4,
+     5
+    ],
+    [
+     "cobweb",
+     7,
+     5
+    ]
+   ],
+   "map": [
+    "############",
+    "#S.........#",
+    "#.a......b.#",
+    "#k........k#",
+    "###A####B###",
+    "#c...##...c#",
+    "#....##....#",
+    "#....##..s.#",
+    "#....##....#",
+    "####....####",
+    "#p........L#",
+    "#..........#",
+    "#G.........#",
+    "############"
+   ]
+  },
+  {
+   "name": "Rune Relay",
+   "three": 2,
+   "two": 3,
+   "hint": "<b>Three runes in a row.</b> A single ghost can hop from rune to rune while you slip through each door in turn.",
+   "decor": [
+    [
+     "portrait",
+     5,
+     0
+    ],
+    [
+     "bookshelf",
+     9,
+     0
+    ],
+    [
+     "portrait",
+     2,
+     5
+    ],
+    [
+     "bookshelf",
+     10,
+     5
+    ],
+    [
+     "portrait",
+     8,
+     7
+    ],
+    [
+     "bookshelf",
+     2,
+     9
+    ],
+    [
+     "cobwebR",
+     10,
+     1
+    ],
+    [
+     "cobweb",
+     1,
+     6
+    ],
+    [
+     "cobwebR",
+     10,
+     6
+    ],
+    [
+     "cobweb",
+     1,
+     8
+    ]
+   ],
+   "map": [
+    "############",
+    "#S.........#",
+    "#..........#",
+    "#.a..b..x..#",
+    "#k........k#",
+    "#####A######",
+    "#..........#",
+    "#####B######",
+    "#..........#",
+    "#####X######",
+    "#p........p#",
+    "#..........#",
+    "#....G.....#",
+    "############"
+   ]
+  },
+  {
+   "name": "Alley Cats",
+   "three": 2,
+   "two": 3,
+   "cats": [
+    {
+     "row": 6,
+     "x1": 1.6,
+     "x2": 10.4,
+     "period": 4
+    },
+    {
+     "row": 10,
+     "x1": 1.6,
+     "x2": 10.4,
+     "period": 5,
+     "phase": 1
+    },
+    {
+     "col": 8,
+     "y1": 5.6,
+     "y2": 11.4,
+     "period": 3.5
+    }
+   ],
+   "hint": "<b>Three cats on patrol.</b> One walks up and down. Watch which way each one faces.",
+   "decor": [
+    [
+     "portrait",
+     5,
+     0
+    ],
+    [
+     "bookshelf",
+     9,
+     0
+    ],
+    [
+     "portrait",
+     1,
+     4
+    ],
+    [
+     "bookshelf",
+     9,
+     4
+    ],
+    [
+     "cobwebR",
+     10,
+     1
+    ],
+    [
+     "cobweb",
+     1,
+     5
+    ],
+    [
+     "cobwebR",
+     10,
+     5
+    ]
+   ],
+   "map": [
+    "############",
+    "#S.........#",
+    "#.a........#",
+    "#c........c#",
+    "#####A######",
+    "#..........#",
+    "#..........#",
+    "#..........#",
+    "#..........#",
+    "#..........#",
+    "#..........#",
+    "#..........#",
+    "#.........G#",
+    "############"
+   ]
+  },
+  {
+   "name": "In the Spotlight",
+   "three": 2,
+   "two": 3,
+   "watch": [
+    {
+     "face": "left"
+    }
+   ],
+   "hint": "<b>The rune sits in the light.</b> Guards can't see ghosts, so a self only has to reach the rune unseen. Then make a new self right away.",
+   "decor": [
+    [
+     "portrait",
+     9,
+     0
+    ],
+    [
+     "bookshelf",
+     8,
+     7
+    ],
+    [
+     "cobwebR",
+     4,
+     1
+    ],
+    [
+     "cobweb",
+     6,
+     1
+    ],
+    [
+     "cobwebR",
+     10,
+     1
+    ]
+   ],
+   "map": [
+    "############",
+    "#S...#.....#",
+    "#....#.....#",
+    "#....#..a..#",
+    "#.........L#",
+    "#s...#.....#",
+    "#....#.....#",
+    "###A########",
+    "#c........c#",
+    "#..........#",
+    "#..........#",
+    "#....G.....#",
+    "#k........k#",
+    "############"
+   ]
+  },
+  {
+   "name": "Double Shift",
+   "three": 3,
+   "two": 4,
+   "watch": [
+    {
+     "face": "left"
+    }
+   ],
+   "hint": "<b>Two doors and a watchman between them.</b> Hold, hop, and pull the lever.",
+   "decor": [
+    [
+     "portrait",
+     5,
+     0
+    ],
+    [
+     "bookshelf",
+     9,
+     4
+    ],
+    [
+     "portrait",
+     5,
+     8
+    ],
+    [
+     "bookshelf",
+     9,
+     8
+    ],
+    [
+     "cobwebR",
+     10,
+     1
+    ]
+   ],
+   "map": [
+    "############",
+    "#S.......s.#",
+    "#.a........#",
+    "#k...b....k#",
+    "#####A######",
+    "#c........L#",
+    "#..........#",
+    "#..........#",
+    "#######B####",
+    "#p........p#",
+    "#..........#",
+    "#....G.....#",
+    "#k........k#",
+    "############"
+   ]
+  },
+  {
+   "name": "Banquet Heist",
+   "boss": true,
+   "three": 3,
+   "two": 4,
+   "watch": [
+    {
+     "face": "right"
+    }
+   ],
+   "cats": [
+    {
+     "row": 5,
+     "x1": 1.6,
+     "x2": 7.4,
+     "period": 4
+    }
+   ],
+   "hint": "<b>Boss heist!</b> Three doors, a cat in the dining room and a watchman in the vault. One ghost will need to do two jobs, and you need to time the lantern.",
+   "decor": [
+    [
+     "portrait",
+     5,
+     0
+    ],
+    [
+     "bookshelf",
+     8,
+     3
+    ],
+    [
+     "portrait",
+     4,
+     7
+    ],
+    [
+     "bookshelf",
+     4,
+     11
+    ],
+    [
+     "cobwebR",
+     10,
+     1
+    ],
+    [
+     "cobweb",
+     1,
+     8
+    ],
+    [
+     "cobwebR",
+     10,
+     12
+    ]
+   ],
+   "map": [
+    "############",
+    "#S..a....x.#",
+    "#k........k#",
+    "#####A######",
+    "#c........c#",
+    "#..........#",
+    "#.........b#",
+    "########B###",
+    "#.........p#",
+    "#L.........#",
+    "#..........#",
+    "########X###",
+    "#k...G.....#",
+    "############"
+   ]
+  },
+  {
+   "name": "Night Patrol",
+   "three": 2,
+   "two": 3,
+   "cats": [
+    {
+     "col": 3,
+     "y1": 7.6,
+     "y2": 11.4,
+     "period": 3.2
+    },
+    {
+     "col": 6,
+     "y1": 7.6,
+     "y2": 11.4,
+     "period": 3.2,
+     "phase": 1.6
+    },
+    {
+     "col": 9,
+     "y1": 7.6,
+     "y2": 11.4,
+     "period": 2.6
+    }
+   ],
+   "hint": "<b>Cats pacing up and down.</b> Slip past behind their backs.",
+   "decor": [
+    [
+     "portrait",
+     9,
+     0
+    ],
+    [
+     "bookshelf",
+     3,
+     6
+    ],
+    [
+     "cobwebR",
+     4,
+     1
+    ],
+    [
+     "cobweb",
+     6,
+     1
+    ],
+    [
+     "cobwebR",
+     10,
+     1
+    ],
+    [
+     "cobweb",
+     1,
+     7
+    ]
+   ],
+   "map": [
+    "############",
+    "#S...#.....#",
+    "#....#..a..#",
+    "#....#.....#",
+    "#..........#",
+    "#k...#....k#",
+    "#######A####",
+    "#..........#",
+    "#..........#",
+    "#..........#",
+    "#..........#",
+    "#..........#",
+    "#.........G#",
+    "############"
+   ]
+  },
+  {
+   "name": "Behind Bars",
+   "three": 2,
+   "two": 3,
+   "watch": [
+    {
+     "face": "down"
+    }
+   ],
+   "hint": "<b>The watchman stares at the rune.</b> The lever is locked away, but a quick ghost might not need it.",
+   "decor": [
+    [
+     "portrait",
+     9,
+     0
+    ],
+    [
+     "bookshelf",
+     4,
+     7
+    ],
+    [
+     "portrait",
+     3,
+     10
+    ],
+    [
+     "cobwebR",
+     4,
+     1
+    ],
+    [
+     "cobweb",
+     6,
+     1
+    ],
+    [
+     "cobwebR",
+     10,
+     1
+    ],
+    [
+     "cobweb",
+     1,
+     8
+    ]
+   ],
+   "map": [
+    "############",
+    "#S...#..L..#",
+    "#....#.....#",
+    "#.a..#..b..#",
+    "#....#.....#",
+    "#..........#",
+    "#....#.....#",
+    "##A###.....#",
+    "#.s..#.....#",
+    "#....#.....#",
+    "########B###",
+    "#..........#",
+    "#....G.....#",
+    "############"
+   ]
+  },
+  {
+   "name": "Clockwork",
+   "three": 1,
+   "two": 2,
+   "watch": [
+    {
+     "face": "right",
+     "period": 4
+    },
+    {
+     "face": "left",
+     "period": 4,
+     "phase": 1.3
+    },
+    {
+     "face": "right",
+     "period": 4,
+     "phase": 2.6
+    }
+   ],
+   "hint": "<b>Three lanterns, three rhythms.</b> Use the pillars as cover and move when the light swings away.",
+   "decor": [
+    [
+     "portrait",
+     5,
+     0
+    ],
+    [
+     "bookshelf",
+     9,
+     0
+    ],
+    [
+     "cobwebR",
+     10,
+     1
+    ],
+    [
+     "cobweb",
+     5,
+     11
+    ]
+   ],
+   "map": [
+    "############",
+    "#S.........#",
+    "#....##....#",
+    "#L...##....#",
+    "#..........#",
+    "#.##....##.#",
+    "#.##.##...L#",
+    "#....##....#",
+    "#..........#",
+    "#L...##....#",
+    "#....##....#",
+    "#..##...##.#",
+    "#.........G#",
+    "############"
+   ]
+  },
+  {
+   "name": "Key Chain",
+   "three": 2,
+   "two": 3,
+   "cats": [
+    {
+     "row": 6,
+     "x1": 1.6,
+     "x2": 10.4,
+     "period": 4.5
+    },
+    {
+     "row": 10,
+     "x1": 1.6,
+     "x2": 10.4,
+     "period": 4,
+     "phase": 2
+    }
+   ],
+   "hint": "<b>Relay the runes again</b>, this time with cats in the halls.",
+   "decor": [
+    [
+     "portrait",
+     5,
+     0
+    ],
+    [
+     "bookshelf",
+     8,
+     3
+    ],
+    [
+     "portrait",
+     8,
+     7
+    ],
+    [
+     "bookshelf",
+     8,
+     11
+    ],
+    [
+     "cobwebR",
+     10,
+     1
+    ],
+    [
+     "cobweb",
+     1,
+     4
+    ],
+    [
+     "cobwebR",
+     10,
+     4
+    ],
+    [
+     "cobweb",
+     1,
+     8
+    ]
+   ],
+   "map": [
+    "############",
+    "#S.a..b..x.#",
+    "#k........k#",
+    "#####A######",
+    "#..........#",
+    "#..........#",
+    "#..........#",
+    "#####B######",
+    "#..........#",
+    "#..........#",
+    "#..........#",
+    "#####X######",
+    "#p...G....p#",
+    "############"
+   ]
+  },
+  {
+   "name": "The Master Bedroom",
+   "boss": true,
+   "three": 4,
+   "two": 5,
+   "watch": [
+    {
+     "face": "right"
+    },
+    {
+     "face": "left",
+     "phase": 2
+    }
+   ],
+   "cats": [
+    {
+     "row": 5,
+     "x1": 1.6,
+     "x2": 10.4,
+     "period": 4.5
+    }
+   ],
+   "hint": "<b>Final heist!</b> Every trick you know: hold, hop, time the cat and kill the lights.",
+   "decor": [
+    [
+     "portrait",
+     5,
+     0
+    ],
+    [
+     "bookshelf",
+     8,
+     3
+    ],
+    [
+     "portrait",
+     4,
+     7
+    ],
+    [
+     "bookshelf",
+     8,
+     11
+    ],
+    [
+     "cobwebR",
+     10,
+     1
+    ],
+    [
+     "cobwebR",
+     10,
+     8
+    ]
+   ],
+   "map": [
+    "############",
+    "#S..a....b.#",
+    "#k........k#",
+    "#####A######",
+    "#c........c#",
+    "#..........#",
+    "#.x......s.#",
+    "#######B####",
+    "#L.........#",
+    "#..........#",
+    "#.........L#",
+    "####X#######",
+    "#G........c#",
+    "############"
+   ]
+  }
+ ]
+}
